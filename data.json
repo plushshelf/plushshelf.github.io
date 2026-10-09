@@ -695,5 +695,22 @@
     "color": "白色、手抱金色笑臉星星",
     "size": "中型",
     "note": ""
-  }
+  },
+  {
+    "hold": false,
+    "sold": false,
+    "id": 43,
+    "imageName": "IMG_5100.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1NY-c3KOIQ8W3EuwnqMtyOE8bT-YjaJQ1/view",
+    "image2Name": "",
+    "image2Url": "",
+    "price": 250,
+    "linkLabel": "jELLYCAT|Zodihop Luxe Bunny Bag Charm 太空兔鎖匙扣",
+    "linkUrl": "https://www.barbiebox.store/products/jellycat-doll-bas4cosbc-in",
+    "name": "太空兔 (英國版) 匙扣",
+    "series": "Bashful 垂耳兔",
+    "color": "藍紫綠幻彩、太空吊牌",
+    "size": "小型",
+    "note": "吊牌印 SPACE / JELLYCAT LONDON"
+  },
 ]
