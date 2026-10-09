@@ -181,7 +181,10 @@
     "linkLabel": "參考連結",
     "linkUrl": "https://www.lanecrawford.com.hk/product/jellycat/little-blossom-petal-bunny-beige/_/EQO750/product.lc",
     "name": "銀灰小垂耳兔 匙扣",
-    "series": "Bashful 小兔",
+    "series": [
+      "Bashful 小兔",
+      "匙扣"
+    ],
     "color": "米色、粉紫碎花耳裡與腳底",
     "size": "小型",
     "note": "與另外兩隻同框（右）"
@@ -198,9 +201,12 @@
     "linkLabel": "Amuseables Peanut Bag Charm",
     "linkUrl": "https://www.lanecrawford.com.hk/product/jellycat/amuseables-peanut-bag-charm/_/EUA531/product.lc",
     "name": "花生匙扣",
-    "series": "Amuseables 匙扣",
+    "series": [
+      "Amuseables 匙扣",
+      "匙扣"
+    ],
     "color": "米色花生、布腳、金屬圈",
-    "size": "匙扣",
+    "size": "小型",
     "note": ""
   },
   {
@@ -232,7 +238,10 @@
     "linkLabel": "Sky Dragon Bag Charm",
     "linkUrl": "https://www.lanecrawford.com.hk/product/jellycat/sky-dragon-bag-charm/_/EQJ877/product.lc",
     "name": "藍色飛龍匙扣",
-    "series": "龍 匙扣",
+    "series": [
+      "龍",
+      "匙扣"
+    ],
     "color": "淺藍、白翼白角、彩點背刺",
     "size": "匙扣",
     "note": "兩張為同一隻不同角度；吊牌可見 £28.00"
@@ -300,9 +309,12 @@
     "linkLabel": "參考連結",
     "linkUrl": "https://eu.jellycat.com/amuseables-coffee-to-go-bag-charm/",
     "name": "外賣咖啡杯匙扣",
-    "series": "Amuseables 匙扣",
+    "series": [
+      "Amuseables 匙扣",
+      "匙扣"
+    ],
     "color": "白奶蓋、啡杯身、條紋杯套",
-    "size": "匙扣",
+    "size": "小型",
     "note": ""
   },
   {
@@ -521,9 +533,12 @@
     "linkLabel": "Amuseables Pair of Marshmallows Bag Charm",
     "linkUrl": "https://www.lanecrawford.com.hk/product/jellycat/amuseables-pair-of-marshmallows-bag-charm/_/EOY622/product.lc",
     "name": "棉花糖匙扣",
-    "series": "Amuseables 匙扣",
+    "series": [
+      "Amuseables 匙扣",
+      "匙扣"
+    ],
     "color": "粉紅、白色、淺粉腮紅、布腳",
-    "size": "匙扣",
+    "size": "小型",
     "note": "粉紅色與白色棉花糖同框"
   },
   {
