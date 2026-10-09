@@ -710,7 +710,24 @@
     "name": "太空兔 (英國版) 匙扣",
     "series": "Bashful 垂耳兔",
     "color": "藍紫綠幻彩、太空吊牌",
-    "size": "小型",
+    "size": "匙扣",
     "note": "吊牌印 SPACE / JELLYCAT LONDON"
+  },
+  {
+    "id": 44,
+    "name": "太空兔 (韓國版) 匙扣",
+    "price": 250,
+    "series": "Bashful 垂耳兔",
+    "size": "匙扣",
+    "color": "藍紫綠幻彩、太空吊牌",
+    "note": "吊牌印 SPACE / JELLYCAT LONDON",
+    "linkLabel": "jELLYCAT|Zodihop Luxe Bunny Bag Charm 太空兔鎖匙扣",
+    "linkUrl": "https://www.barbiebox.store/products/jellycat-doll-bas4cosbc-in",
+    "imageName": "IMG_5101.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1X0iiHr3hpdELyT8JtbxWY0FU8IKwq2sk/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
   }
 ]
