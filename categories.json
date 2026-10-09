@@ -1,0 +1,10 @@
+[
+  {
+    "slug": "jellycat",
+    "name": "Jellycat",
+    "note": "垂耳兔、趣味物、匙扣",
+    "data": "data.json",
+    "public": "jellycat/",
+    "cms": "jellycat.html"
+  }
+]

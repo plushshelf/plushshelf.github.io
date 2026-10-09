@@ -4,20 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>管理 · 公仔架</title>
+<link rel="stylesheet" href="../assets/catalog.css">
 <style>
-  :root { --bg:#f6f1ea; --ink:#2c241c; --muted:#7a6d62; --card:#fffdf9; --line:#e6dcd0; }
-  * { box-sizing: border-box; }
-  body { margin:0; font-family:"PingFang TC", sans-serif; background:var(--bg); color:var(--ink); }
   .wrap { max-width:640px; margin:0 auto; padding:36px 22px; }
-  h1 { font-family:Palatino, "Songti TC", serif; font-weight:500; font-size:32px; margin:0 0 8px; }
-  a { color:var(--muted); }
-  .card { display:block; margin-top:18px; padding:18px; background:var(--card); border:1px solid var(--line); border-radius:16px; text-decoration:none; color:inherit; }
-  .card b { display:block; font-size:20px; font-family:Palatino, "Songti TC", serif; font-weight:500; }
-  .card span { color:var(--muted); font-size:13px; }
-  label { display:grid; gap:6px; margin-top:18px; color:var(--muted); font-size:13px; }
-  input { font:inherit; padding:10px; border:1px solid var(--line); border-radius:10px; color:var(--ink); }
-  button { margin-top:10px; font:inherit; border:0; background:var(--ink); color:#fff; border-radius:10px; padding:8px 14px; cursor:pointer; }
-  #msg { color:var(--muted); min-height:1.2em; }
+  a.brand { display:block; margin-top:18px; padding:18px; background:var(--card); border:1px solid var(--line); border-radius:16px; text-decoration:none; color:inherit; }
+  a.brand b { display:block; font-size:20px; font-weight:500; }
+  a.brand span { color:var(--muted); font-size:13px; font-family:"PingFang TC", sans-serif; }
+  label { display:grid; gap:6px; margin-top:18px; color:var(--muted); font-size:13px; font-family:"PingFang TC", sans-serif; }
+  #msg { color:var(--muted); min-height:1.2em; font-family:"PingFang TC", sans-serif; }
   .hidden { display:none; }
 </style>
 </head>
@@ -27,55 +21,11 @@
   <p id="msg">驗證中…</p>
   <form id="gate" class="hidden">
     <label>GitHub token<input id="token" type="password" autocomplete="off" spellcheck="false"></label>
-    <button type="submit">驗證</button>
+    <button class="primary" type="submit">驗證</button>
   </form>
-  <div id="list" class="hidden">
-    <a class="card" href="jellycat.html"><b>Jellycat</b><span>編輯這個品牌的清單</span></a>
-  </div>
-  <p><a href="../">返回公仔架</a></p>
+  <div id="list" class="hidden"></div>
+  <p><a class="back" href="../">返回公仔架</a></p>
 </div>
-<script>
-const GH = { owner: "plushshelf", repo: "plushshelf.github.io" };
-const TOKEN = "jellycat-gh-token";
-function headers(token) {
-  return { Accept: "application/vnd.github+json", Authorization: "Bearer " + token, "X-GitHub-Api-Version": "2022-11-28" };
-}
-async function valid(token) {
-  if (!token) return false;
-  try {
-    const res = await fetch("https://api.github.com/repos/" + GH.owner + "/" + GH.repo, { headers: headers(token), cache: "no-store" });
-    if (!res.ok) return false;
-    const repo = await res.json();
-    return !!(repo.permissions && repo.permissions.push);
-  } catch (e) {
-    return false;
-  }
-}
-function showList() {
-  document.getElementById("msg").textContent = "已驗證";
-  document.getElementById("gate").classList.add("hidden");
-  document.getElementById("list").classList.remove("hidden");
-}
-function goHome() { location.replace("../"); }
-(async function () {
-  const saved = localStorage.getItem(TOKEN) || "";
-  if (saved) {
-    if (await valid(saved)) { showList(); return; }
-    localStorage.removeItem(TOKEN);
-    goHome();
-    return;
-  }
-  document.getElementById("msg").textContent = "請貼上有這個 repo 寫入權限的 token";
-  document.getElementById("gate").classList.remove("hidden");
-})();
-document.getElementById("gate").addEventListener("submit", async function (e) {
-  e.preventDefault();
-  const token = document.getElementById("token").value.trim();
-  document.getElementById("msg").textContent = "驗證中…";
-  if (!(await valid(token))) { localStorage.removeItem(TOKEN); goHome(); return; }
-  localStorage.setItem(TOKEN, token);
-  showList();
-});
-</script>
+<script src="../assets/cms-home.js"></script>
 </body>
 </html>
