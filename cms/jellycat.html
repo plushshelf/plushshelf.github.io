@@ -81,7 +81,10 @@
   .row2 { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
   .checks { display:flex; gap:14px; color:var(--ink); }
   .checks label { display:flex; align-items:center; gap:6px; }
-  .form-actions { display:flex; justify-content:space-between; }
+  .tagbox { display:flex; flex-wrap:wrap; gap:6px; }
+  .tagbox button { font-size:12px; border-radius:999px; padding:4px 8px; }
+  .tagadd { display:flex; gap:6px; }
+  .tagadd input { flex:1; min-width:0; }
   .foot { color:var(--muted); font-size:12px; padding-bottom:28px; }
 </style>
 </head>
@@ -140,7 +143,13 @@
       <label>Price @1<input name="price" type="number" min="0" step="1"></label>
     </div>
     <div class="row2">
-      <label>系列／類型<input name="series" list="seriesList"></label>
+      <label>系列／類型
+        <div class="tagbox" id="seriesTags"></div>
+        <span class="tagadd">
+          <input id="seriesInput" list="seriesList" placeholder="輸入後按加入">
+          <button type="button" id="addSeries">加入</button>
+        </span>
+      </label>
       <label>尺寸感覺<input name="size" list="sizeList"></label>
     </div>
     <datalist id="seriesList"></datalist>
@@ -215,6 +224,17 @@ function esc(s) {
   });
 }
 function byId(id) { return items.filter(function (i) { return String(i.id) === String(id); })[0]; }
+function tags(item) {
+  const s = item && item.series;
+  if (Array.isArray(s)) return s.map(function (x) { return String(x).trim(); }).filter(Boolean);
+  if (s == null || String(s).trim() === "") return [];
+  return [String(s).trim()];
+}
+function seriesBadges(item) {
+  const list = tags(item);
+  if (!list.length) return "<span class=\"badge\">未分類</span>";
+  return list.map(function (s) { return "<span class=\"badge\">" + esc(s) + "</span>"; }).join("");
+}
 function markDirty() {
   dirty = true;
   localStorage.setItem(DRAFT, JSON.stringify(items));
@@ -227,16 +247,16 @@ function render() {
   const status = document.getElementById("status").value;
   const size = document.getElementById("size").value;
   const seriesSet = [];
-  items.forEach(function (i) { if (i.series && seriesSet.indexOf(i.series) < 0) seriesSet.push(i.series); });
+  items.forEach(function (i) { tags(i).forEach(function (s) { if (seriesSet.indexOf(s) < 0) seriesSet.push(s); }); });
   seriesSet.sort();
   const sel = document.getElementById("series");
   sel.innerHTML = "<option value=\"\">全部系列</option>" + seriesSet.map(function (s) { return "<option>" + esc(s) + "</option>"; }).join("");
   if (seriesSet.indexOf(series) >= 0) sel.value = series;
   document.getElementById("seriesList").innerHTML = seriesSet.map(function (s) { return "<option value=\"" + esc(s) + "\">"; }).join("");
   const shown = items.filter(function (i) {
-    const blob = [i.id, i.name, i.series, i.color, i.note, i.linkLabel, i.size].join(" ").toLowerCase();
+    const blob = [i.id, i.name, tags(i).join(" "), i.color, i.note, i.linkLabel, i.size].join(" ").toLowerCase();
     if (q && blob.indexOf(q) < 0) return false;
-    if (sel.value && i.series !== sel.value) return false;
+    if (sel.value && tags(i).indexOf(sel.value) < 0) return false;
     if (size && i.size !== size) return false;
     if (status === "sold" && !i.sold) return false;
     if (status === "hold" && !(i.hold && !i.sold)) return false;
@@ -269,7 +289,7 @@ function render() {
       return "<button type=\"button\" class=\"shot\" data-act=\"view\" data-id=\"" + i.id + "\" data-idx=\"" + idx + "\"><img alt=\"" + esc(i.name) + "\" src=\"" + esc(thumb(u)) + "\"></button>";
     }).join("");
     const link = i.linkUrl ? "<a href=\"" + esc(i.linkUrl) + "\" target=\"_blank\" rel=\"noopener\">" + esc("參考連結") + "</a>" : esc(i.linkLabel || "");
-    return "<article class=\"" + cls + "\"><div class=\"photos" + (photos.length > 1 ? " two" : "") + "\">" + imgs + "</div><div class=\"body\"><div class=\"badges\">" + badge + "<span class=\"badge\">" + esc(i.series || "未分類") + "</span><span class=\"badge\">" + esc(i.size || "") + "</span></div><h2 class=\"name\">" + esc(i.name) + "</h2><div class=\"price\">" + money(i.price) + " · #" + esc(i.id) + "</div><div class=\"meta\">" + esc(i.color || "") + (i.note ? " · " + esc(i.note) : "") + "</div><div class=\"meta\">" + link + "</div><div class=\"actions\"><button class=\"auth-only\" data-act=\"hold\" data-id=\"" + i.id + "\">" + (i.hold ? "取消 Hold" : "Hold") + "</button><button class=\"auth-only\" data-act=\"sold\" data-id=\"" + i.id + "\">" + (i.sold ? "取消 Sold" : "Sold") + "</button><button class=\"auth-only\" data-act=\"edit\" data-id=\"" + i.id + "\">編輯</button></div></div></article>";
+    return "<article class=\"" + cls + "\"><div class=\"photos" + (photos.length > 1 ? " two" : "") + "\">" + imgs + "</div><div class=\"body\"><div class=\"badges\">" + badge + seriesBadges(i) + "<span class=\"badge\">" + esc(i.size || "") + "</span></div><h2 class=\"name\">" + esc(i.name) + "</h2><div class=\"price\">" + money(i.price) + " · #" + esc(i.id) + "</div><div class=\"meta\">" + esc(i.color || "") + (i.note ? " · " + esc(i.note) : "") + "</div><div class=\"meta\">" + link + "</div><div class=\"actions\"><button class=\"auth-only\" data-act=\"hold\" data-id=\"" + i.id + "\">" + (i.hold ? "取消 Hold" : "Hold") + "</button><button class=\"auth-only\" data-act=\"sold\" data-id=\"" + i.id + "\">" + (i.sold ? "取消 Sold" : "Sold") + "</button><button class=\"auth-only\" data-act=\"edit\" data-id=\"" + i.id + "\">編輯</button></div></div></article>";
   }).join("");
 }
 function tokenValue() { return document.getElementById("token").value.trim(); }
@@ -412,23 +432,52 @@ function openForm(item) {
   document.getElementById("dlgTitle").textContent = item ? "編輯" : "新增";
   document.getElementById("delBtn").style.visibility = item ? "visible" : "hidden";
   const maxId = items.reduce(function (n, i) { return Math.max(n, Number(i.id) || 0); }, 0);
-  const blank = {id:maxId+1,name:"",price:"",series:"",size:"",color:"",note:"",linkLabel:"參考連結",linkUrl:"",imageName:"",imageUrl:"",image2Name:"",image2Url:"",hold:false,sold:false};
+  const blank = {id:maxId+1,name:"",price:"",series:[],size:"",color:"",note:"",linkLabel:"參考連結",linkUrl:"",imageName:"",imageUrl:"",image2Name:"",image2Url:"",hold:false,sold:false};
   const src = item || blank;
   Array.prototype.forEach.call(f.elements, function (el) {
     if (!el.name) return;
     if (el.type === "checkbox") el.checked = !!src[el.name];
     else el.value = src[el.name] == null ? "" : src[el.name];
   });
+  seriesTags = tags(src);
+  paintSeriesTags();
+  document.getElementById("seriesInput").value = "";
   document.getElementById("dlg").showModal();
 }
+let seriesTags = [];
+function paintSeriesTags() {
+  document.getElementById("seriesTags").innerHTML = seriesTags.map(function (s, idx) {
+    return "<button type=\"button\" data-i=\"" + idx + "\">" + esc(s) + " ×</button>";
+  }).join("");
+}
+function addSeriesFromInput() {
+  const input = document.getElementById("seriesInput");
+  String(input.value || "").split(/[,，]/).forEach(function (part) {
+    const s = part.trim();
+    if (s && seriesTags.indexOf(s) < 0) seriesTags.push(s);
+  });
+  input.value = "";
+  paintSeriesTags();
+}
+document.getElementById("addSeries").onclick = addSeriesFromInput;
+document.getElementById("seriesInput").addEventListener("keydown", function (e) {
+  if (e.key === "Enter") { e.preventDefault(); addSeriesFromInput(); }
+});
+document.getElementById("seriesTags").onclick = function (e) {
+  const btn = e.target.closest("button");
+  if (!btn) return;
+  seriesTags.splice(Number(btn.dataset.i), 1);
+  paintSeriesTags();
+};
 document.getElementById("form").onsubmit = function (e) {
   e.preventDefault();
+  addSeriesFromInput();
   const fd = new FormData(e.target);
   const obj = {
     id: Number(fd.get("id")),
     name: String(fd.get("name") || "").trim(),
     price: fd.get("price") === "" ? "" : Number(fd.get("price")),
-    series: String(fd.get("series") || "").trim(),
+    series: seriesTags.slice(),
     size: String(fd.get("size") || "").trim(),
     color: String(fd.get("color") || "").trim(),
     note: String(fd.get("note") || "").trim(),
@@ -477,7 +526,7 @@ function paintPreview() {
   img.src = thumb(photos[preview.idx], 1600);
   img.alt = item.name;
   document.getElementById("lbName").textContent = item.name;
-  document.getElementById("lbMeta").textContent = [money(item.price), item.series, item.color].filter(Boolean).join(" · ");
+  document.getElementById("lbMeta").textContent = [money(item.price), tags(item).join("、"), item.color].filter(Boolean).join(" · ");
   const multi = photos.length > 1;
   document.getElementById("lbCount").textContent = multi ? (preview.idx + 1) + " / " + photos.length : "";
   document.getElementById("lbPrev").hidden = !multi;
