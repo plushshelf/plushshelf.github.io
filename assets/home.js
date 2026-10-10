@@ -11,7 +11,10 @@ fetch("categories.json?ts=" + Date.now(), { cache: "no-store" }).then(function (
   const box = document.getElementById("brands");
   if (!list.length) { box.innerHTML = "<div class=\"empty\">尚未加入品牌</div>"; return; }
   box.innerHTML = list.map(function (c) {
-    return "<a class=\"brand\" href=\"" + esc(c.public) + "\"><strong>" + esc(c.name) + "</strong><small>" + esc(c.note || "") + "</small><span class=\"go\">進入清單</span></a>";
+    const cover = c.image
+      ? "<div class=\"cover\" style=\"background-image:url('" + esc(c.image) + "')\"></div>"
+      : "<div class=\"cover\"></div>";
+    return "<a class=\"brand\" href=\"" + esc(c.public) + "\">" + cover + "<span class=\"copy\"><strong>" + esc(c.name) + "</strong><small>" + esc(c.note || "") + "</small><span class=\"go\">進入清單</span></span></a>";
   }).join("");
 }).catch(function (err) {
   document.getElementById("brands").innerHTML = "<div class=\"empty\">" + esc(err.message || "讀不到品牌清單") + "</div>";
