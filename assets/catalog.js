@@ -64,18 +64,37 @@ function render() {
   const q = document.getElementById("q").value.trim().toLowerCase();
   const series = document.getElementById("series").value;
   const status = document.getElementById("status").value;
-  const size = document.getElementById("size").value;
+  const sizeEl = document.getElementById("size");
+  const size = sizeEl.value;
   const seriesSet = [];
-  items.forEach(function (i) { tags(i).forEach(function (s) { if (seriesSet.indexOf(s) < 0) seriesSet.push(s); }); });
-  seriesSet.sort();
+  const sizeMap = {};
+  items.forEach(function (i) {
+    tags(i).forEach(function (s) { if (seriesSet.indexOf(s) < 0) seriesSet.push(s); });
+    const raw = String(i.size || "").trim();
+    if (!raw) return;
+    const key = raw.toLowerCase();
+    if (!sizeMap[key]) sizeMap[key] = raw;
+  });
+  seriesSet.sort(function (a, b) { return a.toLowerCase().localeCompare(b.toLowerCase()); });
+  const sizeSet = Object.keys(sizeMap).sort(function (a, b) { return a.localeCompare(b); }).map(function (k) { return sizeMap[k]; });
   const sel = document.getElementById("series");
   sel.innerHTML = "<option value=\"\">全部系列</option>" + seriesSet.map(function (s) { return "<option>" + esc(s) + "</option>"; }).join("");
   if (seriesSet.indexOf(series) >= 0) sel.value = series;
+  const sizeKey = size.toLowerCase();
+  sizeEl.innerHTML = "<option value=\"\">全部尺寸</option>" + sizeSet.map(function (s) { return "<option>" + esc(s) + "</option>"; }).join("");
+  const matchedSize = sizeSet.filter(function (s) { return s.toLowerCase() === sizeKey; })[0] || "";
+  sizeEl.value = matchedSize;
+  const sizeChips = document.getElementById("sizeChips");
+  if (sizeChips) {
+    sizeChips.innerHTML = "<button type=\"button\" data-value=\"\">全部尺寸</button>" + sizeSet.map(function (s) {
+      return "<button type=\"button\" data-value=\"" + esc(s) + "\">" + esc(s) + "</button>";
+    }).join("");
+  }
   const shown = items.filter(function (i) {
     const blob = [i.id, i.name, tags(i).join(" "), i.color, i.note, i.linkLabel, i.size].join(" ").toLowerCase();
     if (q && blob.indexOf(q) < 0) return false;
     if (sel.value && tags(i).indexOf(sel.value) < 0) return false;
-    if (size && i.size !== size) return false;
+    if (sizeEl.value && String(i.size || "").trim().toLowerCase() !== sizeEl.value.toLowerCase()) return false;
     if (status === "sold" && !i.sold) return false;
     if (status === "hold" && !(i.hold && !i.sold)) return false;
     if (status === "available" && (i.hold || i.sold)) return false;
