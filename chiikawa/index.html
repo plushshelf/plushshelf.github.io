@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jellycat · 公仔架</title>
+<link rel="stylesheet" href="../assets/catalog.css">
+</head>
+<body>
+
+<header>
+  <a class="back" href="../">公仔架</a>
+  <h1>Jellycat</h1>
+  <div class="sub">共 <span id="count">0</span> 件</div>
+</header>
+<div class="bar">
+  <input id="q" type="search" placeholder="搜尋品名、系列、顏色、編號">
+  <select id="series"></select>
+  <select id="status" class="narrow-hide">
+    <option value="all">全部狀態</option>
+    <option value="available" selected>可售</option>
+    <option value="hold">Hold</option>
+    <option value="sold">Sold</option>
+  </select>
+  <select id="size" class="narrow-hide">
+    <option value="">全部尺寸</option>
+    <option>匙扣</option>
+    <option>小型</option>
+    <option>中型</option>
+  </select>
+  <div class="chips" id="statusChips" data-target="status">
+    <button type="button" data-value="all">全部</button>
+    <button type="button" data-value="available" class="on">可售</button>
+    <button type="button" data-value="hold">Hold</button>
+    <button type="button" data-value="sold">Sold</button>
+  </div>
+  <div class="chips" id="sizeChips" data-target="size">
+    <button type="button" data-value="">全部尺寸</button>
+    <button type="button" data-value="匙扣">匙扣</button>
+    <button type="button" data-value="小型">小型</button>
+    <button type="button" data-value="中型">中型</button>
+  </div>
+</div>
+<div class="grid" id="grid"><div class="empty">載入中…</div></div>
+<p class="foot">Copyright © <span id="year"></span> WingA. All rights reserved.</p>
+
+<div id="lightbox" hidden>
+  <div class="lb-backdrop" id="lbBackdrop"></div>
+  <div class="lb-frame">
+    <button type="button" class="lb-x" id="lbClose">關閉</button>
+    <button type="button" class="lb-nav prev" id="lbPrev" aria-label="上一張">‹</button>
+    <img id="lbImg" alt="">
+    <button type="button" class="lb-nav next" id="lbNext" aria-label="下一張">›</button>
+    <div class="lb-cap"><strong id="lbName"></strong><span id="lbCount"></span><span id="lbMeta"></span></div>
+  </div>
+</div>
+<script>
+window.PLUSH = {
+  slug: "chiikawa",
+  name: "Chiikawa",
+  data: "../data/chiikawa.json",
+  path: "data/chiikawa.json",
+  home: "../"
+};
+</script>
+<script src="../assets/catalog.js"></script>
+</body>
+</html>
