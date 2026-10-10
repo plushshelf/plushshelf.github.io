@@ -3,7 +3,7 @@
     "slug": "jellycat",
     "name": "Jellycat",
     "note": "垂耳兔、趣味物、匙扣",
-    "image": "https://drive.google.com/file/d/1tUFeqjD3lowjCDeg90FJFfUPXInlzDtk/view?usp=drive_link",
+    "image": "https://drive.google.com/file/d/1tUFeqjD3lowjCDeg90FJFfUPXInlzDtk/view",
     "data": "data.json",
     "public": "jellycat/",
     "cms": "jellycat.html"
@@ -12,7 +12,7 @@
     "slug": "chiikawa",
     "name": "Chiikawa",
     "note": "吉伊卡哇、小八、兔兔、飛鼠",
-    "image": "https://drive.google.com/file/d/1LybhjgHsmrMFut_6AwNCxJX0F_M_0lOO/view?usp=drive_link",
+    "image": "https://drive.google.com/file/d/1LybhjgHsmrMFut_6AwNCxJX0F_M_0lOO/view",
     "data": "data/chiikawa.json",
     "public": "chiikawa/",
     "cms": "chiikawa.html"
