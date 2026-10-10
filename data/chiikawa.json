@@ -23,7 +23,7 @@
     "name": "雪人吉伊卡哇",
     "price": "",
     "series": [
-      "其他"
+      "Chiikawa 吉伊卡哇"
     ],
     "size": "小型",
     "color": "白身、淺藍帽、紅圍巾、彩鈕",
@@ -42,7 +42,7 @@
     "name": "粉紅花飛鼠",
     "price": "",
     "series": [
-      "其他"
+      "Momonga 飛鼠"
     ],
     "size": "小型",
     "color": "粉紅、白玫瑰、綠葉",
@@ -59,7 +59,7 @@
   {
     "id": 4,
     "name": "飛鼠抱星星",
-    "price": 20,
+    "price": "",
     "series": [
       "Momonga 飛鼠"
     ],
@@ -78,7 +78,7 @@
   {
     "id": 5,
     "name": "香港限定格仔籃小八",
-    "price": 150,
+    "price": "",
     "series": [
       "Hachiware 小八"
     ],
@@ -97,7 +97,7 @@
   {
     "id": 6,
     "name": "香港限定格仔籃吉伊卡哇",
-    "price": 150,
+    "price": "",
     "series": [
       "Chiikawa 吉伊卡哇"
     ],
@@ -116,7 +116,7 @@
   {
     "id": 7,
     "name": "香港限定格仔袋兔兔",
-    "price": 200,
+    "price": "",
     "series": [
       "Usagi 兔兔"
     ],

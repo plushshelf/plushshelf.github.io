@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "彩虹耳朵怪",
+    "price": 35,
+    "series": [
+      "毛絨掛飾"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "彩虹絨毛、藍左耳、橙右耳、藍鼻",
+    "note": "吊牌 FUGGLER KEYRING",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5222.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1J5rPXuJg67IorjKNMQf61PFlRc3zYSbh/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 2,
+    "name": "藍紫混色怪",
+    "price": 35,
+    "series": [
+      "毛絨掛飾"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "藍紫粉絨毛、橙圓眼",
+    "note": "吊牌 FUGGLER KEYRING",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5216.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1bkMOwaHbWzFq3XGmicqkXEuCJUP4CPwv/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 3,
+    "name": "青紫混色怪",
+    "price": 35,
+    "series": [
+      "毛絨掛飾"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "青綠＋紫絨毛、黑眼",
+    "note": "吊牌 FUGGLER KEYRING",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5218.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1jGunH7PyeaoSAu-BDB766UFDNpw4j1wF/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 4,
+    "name": "三眼怪",
+    "price": 35,
+    "series": [
+      "毛絨掛飾"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "全綠絨毛、三隻黃眼",
+    "note": "對應 FG75420",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5220.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1DaY3ByFxXjIR3wtMXHY2ARRJSa7AqXns/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 5,
+    "name": "豹紋內褲怪",
+    "price": 35,
+    "series": [
+      "毛絨掛飾"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "豹紋、藍橙條紋內褲、三隻棕眼",
+    "note": "吊牌有 fugglers.com",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5219.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/14th1_CU3NxRwpgOJ0Mm775fkQfd1jBeM/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 6,
+    "name": "綠黃條紋鈕扣怪",
+    "price": 35,
+    "series": [
+      "毛絨掛飾"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "綠黃條紋、大小鈕扣眼",
+    "note": "吊牌 FUGGLER KEYRING",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5217.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/13pc-BnokhvZpAEQNsu8RsDbAzC5WYUGy/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 7,
+    "name": "紅色絨毛怪",
+    "price": 35,
+    "series": [
+      "毛絨掛飾"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "全紅絨毛、粉紅眼",
+    "note": "吊牌有條碼",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5221.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1APkYZqTo0Ag9uCjUNWRtyDe8JswWtVos/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 8,
+    "name": "淡紫鈕扣怪",
+    "price": 35,
+    "series": [
+      "毛絨掛飾"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "淡紫絨毛、綠螺旋鈕＋紫鈕",
+    "note": "吊牌 FUGGLER 第三代",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5251.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1A2ruRqsl15xirWFS0lBGUD-DCypu1M1V/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  }
+]

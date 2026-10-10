@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>管理 Jellycat · 公仔架</title>
+<link rel="stylesheet" href="../assets/catalog.css">
+</head>
+<body>
+
+<header>
+  <a class="back" href="../">返回公仔架</a>
+  <h1>Jellycat 管理</h1>
+  <div class="sub">共 <span id="count">0</span> 件</div>
+</header>
+<div class="stats" id="stats"></div>
+<div class="bar">
+  <input id="q" type="search" placeholder="搜尋品名、系列、顏色、編號">
+  <select id="series"></select>
+  <select id="status" class="narrow-hide">
+    <option value="all">全部狀態</option>
+    <option value="available" selected>可售</option>
+    <option value="hold">Hold</option>
+    <option value="sold">Sold</option>
+  </select>
+  <select id="size" class="narrow-hide">
+    <option value="">全部尺寸</option>
+    <option>匙扣</option>
+    <option>小型</option>
+    <option>中型</option>
+  </select>
+  <div class="chips" id="statusChips" data-target="status">
+    <button type="button" data-value="all">全部</button>
+    <button type="button" data-value="available" class="on">可售</button>
+    <button type="button" data-value="hold">Hold</button>
+    <button type="button" data-value="sold">Sold</button>
+  </div>
+  <div class="chips" id="sizeChips" data-target="size">
+    <button type="button" data-value="">全部尺寸</button>
+    <button type="button" data-value="匙扣">匙扣</button>
+    <button type="button" data-value="小型">小型</button>
+    <button type="button" data-value="中型">中型</button>
+  </div>
+  <span id="syncStatus"></span>
+  <input id="token" type="hidden">
+  <br>
+  <button class="auth-only primary" id="addBtn" type="button">新增</button>
+  <button class="auth-only primary" id="pushBtn" type="button">儲存到 GitHub</button>
+  <button class="auth-only" id="exportJson" type="button">匯出 JSON</button>
+  <button class="auth-only" id="importJson" type="button">匯入 JSON</button>
+  <button class="auth-only danger" id="resetBtn" type="button">還原已發布</button>
+  <input id="file" type="file" accept="application/json" hidden>
+</div>
+<div class="grid" id="grid"><div class="empty">載入中…</div></div>
+<p class="foot">Copyright © <span id="year"></span> WingA. All rights reserved.</p>
+<dialog id="dlg">
+  <form id="form">
+    <h2 id="dlgTitle">編輯</h2>
+    <label>繁體中文品名<input name="name" required></label>
+    <div class="row2">
+      <label>編號<input name="id" type="number" required></label>
+      <label>Price @1<input name="price" type="number" min="0" step="1"></label>
+    </div>
+    <div class="row2">
+      <label>系列／類型
+        <div class="tagbox" id="seriesTags"></div>
+        <span class="tagadd">
+          <input id="seriesInput" list="seriesList" placeholder="輸入後按加入">
+          <button type="button" id="addSeries">加入</button>
+        </span>
+      </label>
+      <label>尺寸感覺<input name="size" list="sizeList"></label>
+    </div>
+    <datalist id="seriesList"></datalist>
+    <datalist id="sizeList"><option value="匙扣"><option value="小型"><option value="中型"></datalist>
+    <label>顏色／特徵<input name="color"></label>
+    <label>備註<textarea name="note" rows="2"></textarea></label>
+    <label>參考連結文字<input name="linkLabel" value="參考連結"></label>
+    <label>參考連結網址<input name="linkUrl"></label>
+    <label>圖片檔名<input name="imageName"></label>
+    <label>圖片 Google Drive 連結<input name="imageUrl"></label>
+    <label>另一角度檔名<input name="image2Name"></label>
+    <label>另一角度連結<input name="image2Url"></label>
+    <div class="checks">
+      <label><input type="checkbox" name="hold"> Hold</label>
+      <label><input type="checkbox" name="sold"> Sold</label>
+    </div>
+    <div class="form-actions">
+      <button type="button" class="danger" id="delBtn">刪除</button>
+      <span>
+        <button type="button" id="cancelBtn">取消</button>
+        <button class="primary" type="submit">套用</button>
+      </span>
+    </div>
+  </form>
+</dialog>
+<div id="lightbox" hidden>
+  <div class="lb-backdrop" id="lbBackdrop"></div>
+  <div class="lb-frame">
+    <button type="button" class="lb-x" id="lbClose">關閉</button>
+    <button type="button" class="lb-nav prev" id="lbPrev" aria-label="上一張">‹</button>
+    <img id="lbImg" alt="">
+    <button type="button" class="lb-nav next" id="lbNext" aria-label="下一張">›</button>
+    <div class="lb-cap"><strong id="lbName"></strong><span id="lbCount"></span><span id="lbMeta"></span></div>
+  </div>
+</div>
+<script>
+window.PLUSH = {
+  slug: "fuggler",
+  name: "Fuggler",
+  data: "../data/fuggler.json",
+  path: "data/fuggler.json",
+  home: "../"
+};
+</script>
+<script src="../assets/cms.js"></script>
+</body>
+</html>
