@@ -9,7 +9,9 @@
   .wrap { max-width:880px; margin:0 auto; padding:36px 22px 28px; }
   .wrap h1 { font-size:40px; }
   .wrap .sub { margin:0 0 28px; }
-  a.brand { display:flex; flex-direction:column; gap:8px; min-height:180px; padding:22px; text-decoration:none; color:inherit; background:var(--card); border:1px solid var(--line); border-radius:18px; }
+  a.brand { display:flex; flex-direction:column; overflow:hidden; min-height:280px; padding:0; text-decoration:none; color:inherit; background:var(--card); border:1px solid var(--line); border-radius:18px; }
+  a.brand .cover { height:168px; background:#efe7dc center/cover no-repeat; }
+  a.brand .copy { display:flex; flex-direction:column; gap:8px; padding:18px 20px 20px; flex:1; }
   a.brand strong { font-size:28px; font-weight:500; }
   a.brand small { color:var(--muted); line-height:1.5; font-family:"PingFang TC", sans-serif; }
   .go { margin-top:auto; font-family:"PingFang TC", sans-serif; font-size:13px; }

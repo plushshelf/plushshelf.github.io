@@ -3,8 +3,18 @@
     "slug": "jellycat",
     "name": "Jellycat",
     "note": "垂耳兔、趣味物、匙扣",
+    "image": "assets/categories/jellycat.jpg",
     "data": "data.json",
     "public": "jellycat/",
     "cms": "jellycat.html"
+  },
+  {
+    "slug": "chiikawa",
+    "name": "Chiikawa",
+    "note": "吉伊卡哇、小八、兔兔、飛鼠",
+    "image": "assets/categories/chiikawa.jpg",
+    "data": "data/chiikawa.json",
+    "public": "chiikawa/",
+    "cms": "chiikawa.html"
   }
 ]
