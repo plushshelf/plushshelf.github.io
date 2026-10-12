@@ -23,7 +23,7 @@
     "name": "雪人吉伊卡哇",
     "price": "",
     "series": [
-      "Chiikawa 吉伊卡哇"
+      "其他"
     ],
     "size": "小型",
     "color": "白身、淺藍帽、紅圍巾、彩鈕",
@@ -59,7 +59,7 @@
   {
     "id": 4,
     "name": "飛鼠抱星星",
-    "price": "",
+    "price": 20,
     "series": [
       "Momonga 飛鼠"
     ],
@@ -78,7 +78,7 @@
   {
     "id": 5,
     "name": "香港限定格仔籃小八",
-    "price": "",
+    "price": 150,
     "series": [
       "Hachiware 小八"
     ],
@@ -97,7 +97,7 @@
   {
     "id": 6,
     "name": "香港限定格仔籃吉伊卡哇",
-    "price": "",
+    "price": 150,
     "series": [
       "Chiikawa 吉伊卡哇"
     ],
@@ -116,7 +116,7 @@
   {
     "id": 7,
     "name": "香港限定格仔袋兔兔",
-    "price": "",
+    "price": 200,
     "series": [
       "Usagi 兔兔"
     ],
@@ -393,6 +393,63 @@
     "linkUrl": "",
     "imageName": "IMG_5229.HEIC",
     "imageUrl": "https://drive.google.com/file/d/1cbSfYggL98PUL7gZ8-0gn5CWDQDuhXKE/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 22,
+    "name": "Chiikawa小八新年燈籠公仔",
+    "price": "30",
+    "series": [
+      "Chiikawa 吉伊卡哇"
+    ],
+    "size": "小型",
+    "color": "紅衣、黃邊、藍髮、粉腮",
+    "note": "吊牌標價 RMB 49.9",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5290.HEIC",
+    "imageUrl": "",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 23,
+    "name": "戴帽小八捧袋",
+    "price": "",
+    "series": [
+      "Hachiware 小八"
+    ],
+    "size": "小型",
+    "color": "白身藍耳、淺藍帽、啡色熊袋",
+    "note": "帽上有 5；吊牌 ちいかわ",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5291.HEIC",
+    "imageUrl": "",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 24,
+    "name": "圓吊牌兔兔頭公仔",
+    "price": "",
+    "series": [
+      "Usagi 兔兔"
+    ],
+    "size": "小型",
+    "color": "米色、長垂耳、粉腮",
+    "note": "黃色圓吊牌 ©n / cc",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5292.HEIC",
+    "imageUrl": "",
     "image2Name": "",
     "image2Url": "",
     "hold": false,
