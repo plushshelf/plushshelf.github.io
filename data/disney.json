@@ -117,24 +117,5 @@
     "image2Url": "",
     "hold": false,
     "sold": false
-  },
-  {
-    "id": 7,
-    "name": "（未上傳相片）",
-    "price": "",
-    "series": [
-      "Duffy and Friends"
-    ],
-    "size": "小型吊飾",
-    "color": "待確認",
-    "note": "Drive 有此檔，請補上外觀描述",
-    "linkLabel": "",
-    "linkUrl": "",
-    "imageName": "IMG_5293.HEIC",
-    "imageUrl": "https://drive.google.com/file/d/1xMShyrgvVpjEsEM33jEmhNZExHCOlUG2/view",
-    "image2Name": "",
-    "image2Url": "",
-    "hold": false,
-    "sold": false
   }
 ]
