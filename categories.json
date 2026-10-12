@@ -34,5 +34,14 @@
     "data": "data/popmart.json",
     "public": "popmart/",
     "cms": "popmart.html"
+  },
+  {
+    "slug": "disney",
+    "name": "Disney",
+    "note": "達菲與好友吊飾",
+    "image": "https://drive.google.com/file/d/1xMShyrgvVpjEsEM33jEmhNZExHCOlUG2/view?usp=drive_link",
+    "data": "data/disney.json",
+    "public": "disney/",
+    "cms": "disney.html"
   }
 ]

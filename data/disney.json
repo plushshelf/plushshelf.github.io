@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "name": "達菲熊（星願造型）",
+    "price": "",
+    "series": [
+      "Duffy and Friends"
+    ],
+    "size": "小型吊飾",
+    "color": "淺藍色上衣、紫色帽子與褲子、金色星星",
+    "note": "吊牌有 Wishful 字樣",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5296.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1Q8gkGP7QQQ3Cf3xFo05Kb7cFcEvKC2Ek/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 2,
+    "name": "奧樂米拉（聖誕造型）",
+    "price": "",
+    "series": [
+      "Duffy and Friends",
+      "Olu Mel"
+    ],
+    "size": "小型吊飾",
+    "color": "綠色海龜、紅色聖誕帽、格子褲、金色星星",
+    "note": "吊牌 Duffy and Friends",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5297.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1LiIauRUBH34TOQTSQVwxZ_y17TTXzjvJ/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 3,
+    "name": "奧樂米拉（蘑菇帽造型）",
+    "price": "",
+    "series": [
+      "Duffy and Friends",
+      "Olu Mel"
+    ],
+    "size": "小型吊飾",
+    "color": "綠色海龜、橙色高帽、棕色領結與褲子",
+    "note": "吊牌有 Disney 與價格標",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5298.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1ivJ3xUJZrmj1yuJER6d-on38l0CtM1KS/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 4,
+    "name": "奧樂米拉（粉紅吊帶造型）",
+    "price": "",
+    "series": [
+      "Duffy and Friends",
+      "Olu Mel"
+    ],
+    "size": "小型吊飾",
+    "color": "綠色海龜、粉紅吊帶褲、淺粉帽子",
+    "note": "吊牌 Disney",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5299.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1ZyQPp1KH-eqxnvi2rB7I7_U3N1P7Kj2O/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 5,
+    "name": "奧樂米拉（甜甜圈造型）",
+    "price": "",
+    "series": [
+      "Duffy and Friends",
+      "Olu Mel"
+    ],
+    "size": "小型吊飾",
+    "color": "綠色海龜、粉紅甜甜圈浮圈",
+    "note": "吊牌有中文說明",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5300.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1NHqYc2NngnghbGZII9D5Bix6DMk_X0dD/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 6,
+    "name": "雪莉玫（藍色洋裝）",
+    "price": "",
+    "series": [
+      "Duffy and Friends",
+      "ShellieMay"
+    ],
+    "size": "小型吊飾",
+    "color": "棕色小熊、藍色洋裝、紅色鞋、點點領巾",
+    "note": "吊牌有 ShellieMay 字樣",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5295.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1z69PXKHQDdyKSgmXDC8seZeBdPnvWEBL/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 7,
+    "name": "（未上傳相片）",
+    "price": "",
+    "series": [
+      "Duffy and Friends"
+    ],
+    "size": "小型吊飾",
+    "color": "待確認",
+    "note": "Drive 有此檔，請補上外觀描述",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5293.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1xMShyrgvVpjEsEM33jEmhNZExHCOlUG2/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  }
+]
