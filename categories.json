@@ -25,5 +25,14 @@
     "data": "data/fuggler.json",
     "public": "fuggler/",
     "cms": "fuggler.html"
+  },
+  {
+    "slug": "popmart",
+    "name": "Popmart",
+    "note": "拉布布、馬力全開",
+    "image": "https://drive.google.com/file/d/11CmWmGVtV1PLl-co7V49_TfXr3sVDL7f/view?usp=drive_link",
+    "data": "data/popmart.json",
+    "public": "popmart/",
+    "cms": "popmart.html"
   }
 ]

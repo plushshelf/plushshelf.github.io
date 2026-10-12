@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "name": "Best Dream (Twinkle Twinkle)",
+    "price": 100,
+    "series": [
+      "馬力全開系列"
+    ],
+    "size": "",
+    "color": "灰黑斑紋、米色額頭、尖耳",
+    "note": "毛絨掛件盲盒",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5303.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1BPVWLVsIrxzRKKOE_3OpgkhJ4IevzfPr/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 2,
+    "name": "亮藍色拉布布(O)",
+    "price": 50,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "亮藍絨毛、藍眼、尖牙",
+    "note": "附藍色收納袋與貼紙",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5304.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1XmadcB3AlaJ1eUCKf7RbBMI3p6NVYwrg/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 3,
+    "name": "淺藍色拉布布(D)",
+    "price": 50,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "淺灰藍絨毛、藍眼",
+    "note": "附黃色收納袋",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5305.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1aK7u-GjaDEVcgbelO5ZieIh0Cxa1rQgu/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 4,
+    "name": "粉紅色拉布布(U)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "粉紅絨毛、兔耳、粉眼",
+    "note": "吊牌 THE MONSTERS",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5306.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1xLUWgXXBsr2gF5teitcib_6hF20N8Glb/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 5,
+    "name": "橙色拉布布(Z)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "橙色絨毛、兔耳",
+    "note": "吊牌有條碼",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5307.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1qb6F5FM-CNr-wbFaDWw4g34PoADCxuID/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 6,
+    "name": "淡黃色拉布布(F)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "淡黃絨毛、兔耳",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5308.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1kzFac_e_vJUYfrT7ams0BubjwpKbZ2z8/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 7,
+    "name": "黃色拉布布(P)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "黃色絨毛、兔耳",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5309.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1l9GHVGND8AFbjv1st5CLNMW9N7LTD0s2/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 8,
+    "name": "淺藍色拉布布(K)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "淺灰藍絨毛、兔耳、藍眼",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5310.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/13e8u4hRvsbBt29CiA9v1kLaspe1RtSS7/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 9,
+    "name": "綠色拉布布(V)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "綠色絨毛、兔耳、綠眼",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5311.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1HcC-i2PjuylME4RgzNvu60HyupaPqfM3/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 10,
+    "name": "綠色拉布布(V)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "綠色絨毛、兔耳、綠眼",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5312.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1BcfuWioAQV3ZhXWGnss_6Jyc3DrAvzt_/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 11,
+    "name": "淺藍色拉布布(D)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "淺灰藍絨毛、兔耳、藍眼",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5313.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1t6qP0bBf-K6_1RElVe-b8JKKavepmbSK/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 12,
+    "name": "淺藍色拉布布(D)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "淺灰藍絨毛、兔耳、藍眼",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5314.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1TdsB7bhVU0u0BKmUJ6l5lFRaGPVnr9qh/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 13,
+    "name": "深藍色拉布布(O)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "深藍絨毛、兔耳、藍眼",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5315.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1ujG73zDzdQdplgFUiOcV7HO3Bp6zSvHf/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 14,
+    "name": "深藍色拉布布(O)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "深藍絨毛、兔耳、藍眼",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5316.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1hbQUXWwC8m6e56FESMa0LfmhHn0h31rq/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 15,
+    "name": "薄荷綠拉布布(I)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "薄荷綠絨毛、兔耳、綠眼",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5317.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1HIYxn2YUwscuH1pDCW2x4SuxNB6ei8Zn/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 16,
+    "name": "薄荷綠拉布布(I)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "薄荷綠絨毛、兔耳、綠眼",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5318.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1SRyWtlwaZsR_dEFvwu93Lc9lRqAFsM3w/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 17,
+    "name": "薄荷綠拉布布(I)",
+    "price": 40,
+    "series": [
+      "The Monsters"
+    ],
+    "size": "小型鑰匙扣",
+    "color": "薄荷綠絨毛、兔耳、綠眼",
+    "note": "",
+    "linkLabel": "",
+    "linkUrl": "",
+    "imageName": "IMG_5319.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1hFiDOUZY6O4rFbZJJe77PqRgYgTm05ES/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  }
+]
