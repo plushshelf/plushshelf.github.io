@@ -401,7 +401,7 @@
   {
     "id": 22,
     "name": "Chiikawa小八新年燈籠公仔",
-    "price": "30",
+    "price": 30,
     "series": [
       "Chiikawa 吉伊卡哇"
     ],
@@ -411,7 +411,7 @@
     "linkLabel": "",
     "linkUrl": "",
     "imageName": "IMG_5290.HEIC",
-    "imageUrl": "",
+    "imageUrl": "https://drive.google.com/file/d/1XoERK8fIWnk3O4IozQF2JgsDIw5p2eto/view?usp=drive_link",
     "image2Name": "",
     "image2Url": "",
     "hold": false,
@@ -430,7 +430,7 @@
     "linkLabel": "",
     "linkUrl": "",
     "imageName": "IMG_5291.HEIC",
-    "imageUrl": "",
+    "imageUrl": "https://drive.google.com/file/d/1mLMxn3kJ2UrIp3BP3d-5PCdaMk6iw94z/view?usp=drive_link",
     "image2Name": "",
     "image2Url": "",
     "hold": false,
@@ -449,7 +449,7 @@
     "linkLabel": "",
     "linkUrl": "",
     "imageName": "IMG_5292.HEIC",
-    "imageUrl": "",
+    "imageUrl": "https://drive.google.com/file/d/1z6U6Bg84EuX1rrJ40uKFnFOVvs1xqPxJ/view?usp=drive_link",
     "image2Name": "",
     "image2Url": "",
     "hold": false,
