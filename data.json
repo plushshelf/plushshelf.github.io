@@ -153,8 +153,8 @@
     "note": "與另外兩隻同框（左）"
   },
   {
-    "hold": true,
-    "sold": false,
+    "hold": false,
+    "sold": true,
     "id": 10,
     "imageName": "IMG_4966.HEIC",
     "imageUrl": "https://drive.google.com/file/d/1d3lPXfhShuDLvn05idrb-N1JiwCjWPJ5/view",
@@ -542,8 +542,8 @@
     "note": "粉紅色與白色棉花糖同框"
   },
   {
-    "hold": true,
-    "sold": false,
+    "hold": false,
+    "sold": true,
     "id": 33,
     "imageName": "IMG_4945.HEIC",
     "imageUrl": "https://drive.google.com/file/d/1GnI6Ja5rHm24tfHXYTZDohXjwUlNE6HN/view",
