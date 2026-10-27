@@ -190,7 +190,7 @@
     "note": "與另外兩隻同框（右）"
   },
   {
-    "hold": false,
+    "hold": true,
     "sold": false,
     "id": 12,
     "imageName": "IMG_4967.HEIC",
@@ -678,7 +678,7 @@
     "note": ""
   },
   {
-    "hold": false,
+    "hold": true,
     "sold": false,
     "id": 41,
     "imageName": "IMG_4955.HEIC",
