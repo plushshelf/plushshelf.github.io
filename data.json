@@ -744,5 +744,43 @@
     "image2Url": "",
     "hold": false,
     "sold": false
+  },
+  {
+    "id": 45,
+    "name": "18cm 深藍垂耳兔",
+    "price": 200,
+    "series": [
+      "Bashful 垂耳兔"
+    ],
+    "size": "中型",
+    "color": "海軍藍、淺粉鼻",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.carousell.com.hk/p/jellycat-%F0%9F%92%99-little-bashful-saffyre-bunny-18cm-1452923338/?t-id=7DZHuz9_LP_1791393181187&t-referrer_browse_type=search_results&t-referrer_context=global_slp&t-referrer_request_id=s_4vE6AUzk5_z0vC&t-referrer_search_query=jellycat%20bunny%2018cm&t-referrer_source=search_landing&t-tap_index=36",
+    "imageName": "IMG_5974.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/11nDXqfMlW6L8Wwj-sxQoi47VS9ztYKzQ/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
+  },
+  {
+    "id": 46,
+    "name": "企鵝",
+    "price": 120,
+    "series": [
+      "Amuseables 動物"
+    ],
+    "size": "小型",
+    "color": "",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.lanecrawford.com.hk/product/jellycat/small-peanut-penguin/_/EOY494/product.lc",
+    "imageName": "IMG_5973.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1Is0OKNqp9RH_hg38CLhh5qe-aNXvsB17/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
   }
 ]
