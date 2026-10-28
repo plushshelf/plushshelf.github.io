@@ -190,8 +190,8 @@
     "note": "與另外兩隻同框（右）"
   },
   {
-    "hold": true,
-    "sold": false,
+    "hold": false,
+    "sold": true,
     "id": 12,
     "imageName": "IMG_4967.HEIC",
     "imageUrl": "https://drive.google.com/file/d/1WcBy9MfdEf2ZSXVxhdGqSzs-YykHlfeN/view",
@@ -678,8 +678,8 @@
     "note": ""
   },
   {
-    "hold": true,
-    "sold": false,
+    "hold": false,
+    "sold": true,
     "id": 41,
     "imageName": "IMG_4955.HEIC",
     "imageUrl": "https://drive.google.com/file/d/1xhMiyFiIts0_IXV5V-jhcyFfxnb0rvpH/view",
