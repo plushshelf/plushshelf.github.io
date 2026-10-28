@@ -801,5 +801,24 @@
     "image2Url": "",
     "hold": false,
     "sold": false
+  },
+  {
+    "id": 48,
+    "name": "柔軟小熊",
+    "price": 200,
+    "series": [
+      "Amuseables 動物"
+    ],
+    "size": "小型",
+    "color": "",
+    "note": "jELLYCAT|Smudge Bear Tiny 13cm 柔軟小熊",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.barbiebox.store/products/jellycat-charm-smg6b-in",
+    "imageName": "IMG_5975.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/182I5g-wWaGwjpGqDSqDxQmRMQ3WbsTGR/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
   }
 ]
