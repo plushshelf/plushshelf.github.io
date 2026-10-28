@@ -782,5 +782,24 @@
     "image2Url": "",
     "hold": false,
     "sold": false
+  },
+  {
+    "id": 47,
+    "name": "炸毛鴨",
+    "price": 300,
+    "series": [
+      "Amuseables 動物"
+    ],
+    "size": "中型",
+    "color": "黃",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://eu.jellycat.com/dorit-duckling/",
+    "imageName": "https://drive.google.com/file/d/1DY5XdGjiAMq9vrM1ZqbKqlXzboiR2M7r/view?usp=drive_link",
+    "imageUrl": "https://drive.google.com/file/d/1DY5XdGjiAMq9vrM1ZqbKqlXzboiR2M7r/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false
   }
 ]
