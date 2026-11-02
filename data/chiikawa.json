@@ -478,5 +478,63 @@
     "hold": false,
     "sold": false,
     "created_at": "2026-10-01"
+  },
+  {
+    "id": 25,
+    "name": "小八貓（ハチワレ）",
+    "price": 80,
+    "series": [
+      "萬聖節變裝"
+    ],
+    "size": "中型",
+    "color": "萬聖節變裝「護士」造型，手上拿著注射器圖案",
+    "note": "背面為口金包（がま口）設計的收納小袋/吊飾",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://chiikawamarket.jp/zh-hant/collections/halloween-plush2026/products/4571609402718",
+    "imageName": "IMG_6184.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/16g6onWnnO9dakJlw2UrJtKOFN08zkONg/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-03T00:15:20+08:00"
+  },
+  {
+    "id": 26,
+    "name": "烏薩奇（Usagi）",
+    "price": 80,
+    "series": [
+      "萬聖節變裝"
+    ],
+    "size": "中型",
+    "color": "穿著手術袍、戴著手術帽與口罩的萬聖節醫生造型",
+    "note": "兼具吊飾與小收納包 / 口金包功能，可以用背面的扣子或掛鉤掛在包包上。",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://chiikawamarket.jp/zh-hant/products/4571609402725",
+    "imageName": "IMG_6185.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1LeieOLg-p5GqdHrC3EfR90dmJFuw6Qu3/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-03T00:15:20+08:00"
+  },
+  {
+    "id": 27,
+    "name": "巴風特風獅爺",
+    "price": 80,
+    "series": [],
+    "size": "",
+    "color": "吉伊卡哇 大家一起變裝吊飾 (巴風特風獅爺)",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://chiikawamarket.jp/zh-hant/products/4571609402756",
+    "imageName": "",
+    "imageUrl": "",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-03T00:15:20+08:00"
   }
 ]
