@@ -74,7 +74,7 @@ function paintTicker() {
     bar.className = "ticker";
     bar.hidden = true;
     const header = document.querySelector("header");
-    if (header && header.parentNode) header.parentNode.insertBefore(bar, header.nextSibling);
+    if (header && header.parentNode) header.parentNode.insertBefore(bar, header);
     else document.body.insertBefore(bar, document.body.firstChild);
   }
   const news = items.filter(isNew);
@@ -162,7 +162,15 @@ function render() {
     if (status === "hold" && !(i.hold && !i.sold)) return false;
     if (status === "available" && (i.hold || i.sold)) return false;
     return true;
-  }).sort(function (a, b) { return a.id - b.id; });
+  }).sort(function (a, b) {
+    const an = isNew(a) ? 0 : 1;
+    const bn = isNew(b) ? 0 : 1;
+    if (an !== bn) return an - bn;
+    const at = new Date(a.created_at || 0).getTime() || 0;
+    const bt = new Date(b.created_at || 0).getTime() || 0;
+    if (an === 0 && at !== bt) return bt - at;
+    return a.id - b.id;
+  });
   function sum(list) { return list.reduce(function (n, i) { return n + (Number(i.price) || 0); }, 0); }
   const available = items.filter(function (i) { return !i.hold && !i.sold; });
   const holds = items.filter(function (i) { return i.hold && !i.sold; });
