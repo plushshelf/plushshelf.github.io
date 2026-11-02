@@ -455,7 +455,7 @@
   },
   {
     "hold": false,
-    "sold": false,
+    "sold": true,
     "id": 27,
     "imageName": "IMG_4986.HEIC",
     "imageUrl": "https://drive.google.com/file/d/19HkWxb19IC3wEfqu2fbp3F2oxsxzMU6e/view",
