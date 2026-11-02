@@ -789,19 +789,19 @@
     "created_at": "2026-10-01"
   },
   {
-    "id": 45,
-    "name": "18cm 深藍垂耳兔",
+    "id": 49,
+    "name": "18cm 小麥蓬鬆垂耳兔",
     "price": 200,
     "series": [
       "Bashful 垂耳兔"
     ],
     "size": "中型",
     "color": "海軍藍、淺粉鼻",
-    "note": "",
+    "note": "jELLYCAT|Wheat Flufflet Bunny 小麥蓬鬆賓尼兔",
     "linkLabel": "參考連結",
-    "linkUrl": "https://www.carousell.com.hk/p/jellycat-%F0%9F%92%99-little-bashful-saffyre-bunny-18cm-1452923338/?t-id=7DZHuz9_LP_1791393181187&t-referrer_browse_type=search_results&t-referrer_context=global_slp&t-referrer_request_id=s_4vE6AUzk5_z0vC&t-referrer_search_query=jellycat%20bunny%2018cm&t-referrer_source=search_landing&t-tap_index=36",
-    "imageName": "IMG_5974.HEIC",
-    "imageUrl": "https://drive.google.com/file/d/11nDXqfMlW6L8Wwj-sxQoi47VS9ztYKzQ/view?usp=drive_link",
+    "linkUrl": "https://www.barbiebox.store/products/jellycat-doll-bass6tlb-in",
+    "imageName": "IMG_6183.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1zOq20qbFzmBApGXYCB9npWmLotzXEj9Q/view?usp=drive_link",
     "image2Name": "",
     "image2Url": "",
     "hold": false,
@@ -867,5 +867,28 @@
     "hold": false,
     "sold": false,
     "created_at": "2026-10-01"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "id": 45,
+    "name": "18cm 深藍垂耳兔",
+    "price": 200,
+    "series": [
+      "Bashful 垂耳兔"
+    ],
+    "size": "中型",
+    "color": "海軍藍、淺粉鼻",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.carousell.com.hk/p/jellycat-%F0%9F%92%99-little-bashful-saffyre-bunny-18cm-1452923338/?t-id=7DZHuz9_LP_1791393181187&t-referrer_browse_type=search_results&t-referrer_context=global_slp&t-referrer_request_id=s_4vE6AUzk5_z0vC&t-referrer_search_query=jellycat%20bunny%2018cm&t-referrer_source=search_landing&t-tap_index=36",
+    "imageName": "IMG_5974.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/11nDXqfMlW6L8Wwj-sxQoi47VS9ztYKzQ/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-10-01"
+>>>>>>> 3c762e39bce712e08ce205415ed5eb51f56d8c69
   }
 ]
