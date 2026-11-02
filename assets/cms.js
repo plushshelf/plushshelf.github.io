@@ -49,10 +49,72 @@ function tags(item) {
   if (s == null || String(s).trim() === "") return [];
   return [String(s).trim()];
 }
+
+function hkStamp() {
+  const s = new Date().toLocaleString("sv-SE", { timeZone: "Asia/Hong_Kong" });
+  return s.replace(" ", "T") + "+08:00";
+}
+function isNew(item) {
+  const raw = item && item.created_at;
+  if (raw == null || String(raw).trim() === "") return false;
+  const created = new Date(raw);
+  if (isNaN(created.getTime())) return false;
+  const age = Date.now() - created.getTime();
+  return age >= -60000 && age <= 7 * 24 * 60 * 60 * 1000;
+}
+function newMark(item) {
+  if (!isNew(item)) return "";
+  return "<span class=\"new-mark\" title=\"7 日內新品\">NEW</span>";
+}
+function paintTicker() {
+  let bar = document.getElementById("newsTicker");
+  if (!bar) {
+    bar = document.createElement("div");
+    bar.id = "newsTicker";
+    bar.className = "ticker";
+    bar.hidden = true;
+    const header = document.querySelector("header");
+    if (header && header.parentNode) header.parentNode.insertBefore(bar, header.nextSibling);
+    else document.body.insertBefore(bar, document.body.firstChild);
+  }
+  const news = items.filter(isNew);
+  if (!news.length) {
+    bar.hidden = true;
+    bar.innerHTML = "";
+    document.documentElement.style.setProperty("--ticker-h", "0px");
+    return;
+  }
+  const bits = news.map(function (i) {
+    return "<a href=\"#item-" + esc(i.id) + "\" data-jump=\"" + esc(i.id) + "\">NEW #" + esc(i.id) + " " + esc(i.name) + "</a>";
+  }).join("<span class=\"sep\"> · </span>");
+  bar.hidden = false;
+  bar.innerHTML = "<div class=\"ticker-label\">新品</div><div class=\"ticker-viewport\"><div class=\"ticker-track\"><span class=\"ticker-row\">" + bits + "</span><span class=\"ticker-row\" aria-hidden=\"true\">" + bits + "</span></div></div>";
+  document.documentElement.style.setProperty("--ticker-h", bar.offsetHeight + "px");
+}
+function jumpToItem(id) {
+  const el = document.getElementById("item-" + id);
+  if (!el) return;
+  el.scrollIntoView({ behavior: "smooth", block: "center" });
+  el.classList.add("jump");
+  setTimeout(function () { el.classList.remove("jump"); }, 1600);
+}
+document.addEventListener("click", function (e) {
+  const a = e.target.closest("[data-jump]");
+  if (!a) return;
+  e.preventDefault();
+  jumpToItem(a.dataset.jump);
+});
 function seriesBadges(item) {
   const list = tags(item);
   if (!list.length) return "<span class=\"badge\">未分類</span>";
   return list.map(function (s) { return "<span class=\"badge\">" + esc(s) + "</span>"; }).join("");
+}
+
+function stampCreatedAt() {
+  const stamp = hkStamp();
+  items.forEach(function (i) {
+    if (i.created_at == null || String(i.created_at).trim() === "") i.created_at = stamp;
+  });
 }
 function markDirty() {
   dirty = true;
@@ -117,6 +179,7 @@ function render() {
     return "<div class=\"stat\"><b>" + row[1] + "</b><span>" + row[0] + (showMoney ? " · " + money(row[2]) : "") + "</span></div>";
   }).join("");
   syncChips();
+  paintTicker();
   const grid = document.getElementById("grid");
   if (!shown.length) { grid.innerHTML = "<div class=\"empty\">沒有符合的項目</div>"; return; }
   grid.innerHTML = shown.map(function (i) {
@@ -127,7 +190,7 @@ function render() {
       return "<button type=\"button\" class=\"shot\" data-act=\"view\" data-id=\"" + i.id + "\" data-idx=\"" + idx + "\"><img alt=\"" + esc(i.name) + "\" src=\"" + esc(thumb(u)) + "\"></button>";
     }).join("");
     const link = i.linkUrl ? "<a href=\"" + esc(i.linkUrl) + "\" target=\"_blank\" rel=\"noopener\">" + esc("參考連結") + "</a>" : esc(i.linkLabel || "");
-    return "<article class=\"" + cls + "\"><div class=\"photos" + (photos.length > 1 ? " two" : "") + "\">" + imgs + "</div><div class=\"body\"><div class=\"badges\">" + badge + seriesBadges(i) + "<span class=\"badge\">" + esc(i.size || "") + "</span></div><h2 class=\"name\">" + esc(i.name) + "</h2><div class=\"price\">" + money(i.price) + " · #" + esc(i.id) + "</div><div class=\"meta\">" + esc(i.color || "") + (i.note ? " · " + esc(i.note) : "") + "</div><div class=\"meta\">" + link + "</div><div class=\"actions\"><button class=\"auth-only\" data-act=\"hold\" data-id=\"" + i.id + "\">" + (i.hold ? "取消 Hold" : "Hold") + "</button><button class=\"auth-only\" data-act=\"sold\" data-id=\"" + i.id + "\">" + (i.sold ? "取消 Sold" : "Sold") + "</button><button class=\"auth-only\" data-act=\"edit\" data-id=\"" + i.id + "\">編輯</button></div></div></article>";
+    return "<article class=\"" + cls + "\" id=\"item-" + esc(i.id) + "\"><div class=\"photos" + (photos.length > 1 ? " two" : "") + "\">" + imgs + "</div><div class=\"body\"><div class=\"badges\">" + badge + seriesBadges(i) + "<span class=\"badge\">" + esc(i.size || "") + "</span></div><h2 class=\"name\">" + newMark(i) + esc(i.name) + "</h2><div class=\"price\">" + money(i.price) + " · #" + esc(i.id) + "</div><div class=\"meta\">" + esc(i.color || "") + (i.note ? " · " + esc(i.note) : "") + "</div><div class=\"meta\">" + link + "</div><div class=\"actions\"><button class=\"auth-only\" data-act=\"hold\" data-id=\"" + i.id + "\">" + (i.hold ? "取消 Hold" : "Hold") + "</button><button class=\"auth-only\" data-act=\"sold\" data-id=\"" + i.id + "\">" + (i.sold ? "取消 Sold" : "Sold") + "</button><button class=\"auth-only\" data-act=\"edit\" data-id=\"" + i.id + "\">編輯</button></div></div></article>";
   }).join("");
 }
 function tokenValue() { return document.getElementById("token").value.trim(); }
@@ -168,6 +231,7 @@ async function pushGithub() {
       const err = await get.json().catch(function () { return {}; });
       throw new Error(err.message || "讀取 data.json 失敗");
     }
+    stampCreatedAt();
     const body = {
       message: "Update listing",
       content: b64(JSON.stringify(items, null, 2) + "\n"),
@@ -182,6 +246,7 @@ async function pushGithub() {
     localStorage.removeItem(DRAFT);
     dirty = false;
     setStatus("已上傳。約一分鐘後重新整理公開頁。");
+    render();
   } catch (err) {
     setStatus(err.message || "上傳失敗");
     alert(err.message || "上傳失敗");
@@ -270,7 +335,7 @@ function openForm(item) {
   document.getElementById("dlgTitle").textContent = item ? "編輯" : "新增";
   document.getElementById("delBtn").style.visibility = item ? "visible" : "hidden";
   const maxId = items.reduce(function (n, i) { return Math.max(n, Number(i.id) || 0); }, 0);
-  const blank = {id:maxId+1,name:"",price:"",series:[],size:"",color:"",note:"",linkLabel:"參考連結",linkUrl:"",imageName:"",imageUrl:"",image2Name:"",image2Url:"",hold:false,sold:false};
+  const blank = {id:maxId+1,name:"",price:"",series:[],size:"",color:"",note:"",linkLabel:"參考連結",linkUrl:"",imageName:"",imageUrl:"",image2Name:"",image2Url:"",hold:false,sold:false,created_at:""};
   const src = item || blank;
   Array.prototype.forEach.call(f.elements, function (el) {
     if (!el.name) return;
@@ -326,7 +391,8 @@ document.getElementById("form").onsubmit = function (e) {
     image2Name: String(fd.get("image2Name") || "").trim(),
     image2Url: String(fd.get("image2Url") || "").trim(),
     hold: fd.get("hold") === "on",
-    sold: fd.get("sold") === "on"
+    sold: fd.get("sold") === "on",
+    created_at: editing && editing.created_at ? editing.created_at : ""
   };
   if (obj.hold && obj.sold) obj.hold = false;
   if (items.some(function (i) { return i !== editing && Number(i.id) === obj.id; })) { alert("編號已存在"); return; }

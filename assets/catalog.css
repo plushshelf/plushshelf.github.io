@@ -76,3 +76,19 @@
   .checks label { display:flex; align-items:center; gap:6px; }
   .form-actions { display:flex; justify-content:space-between; }
   .foot { color:var(--muted); font-size:12px; padding-bottom:28px; }
+
+  .new-mark { display:inline-flex; align-items:center; margin-right:6px; padding:2px 6px; border-radius:999px; background:#c4472b; color:#fff; font-family:"PingFang TC", sans-serif; font-size:10px; letter-spacing:.08em; vertical-align:middle; animation:newpulse 1.6s ease-in-out infinite; }
+  @keyframes newpulse { 50% { transform:scale(1.08); } }
+  .ticker { position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:10px; max-width:1180px; margin:0 auto; padding:8px 22px; background:#fff7ef; border-bottom:1px solid var(--line); }
+  .ticker[hidden] { display:none !important; }
+  .ticker-label { flex:0 0 auto; font-family:"PingFang TC", sans-serif; font-size:11px; letter-spacing:.12em; color:#c4472b; }
+  .ticker-viewport { overflow:hidden; flex:1; min-width:0; }
+  .ticker-track { display:flex; width:max-content; animation:ticker 22s linear infinite; }
+  .ticker:hover .ticker-track { animation-play-state:paused; }
+  .ticker-row { display:inline-flex; align-items:center; gap:14px; padding-right:28px; font-family:"PingFang TC", sans-serif; font-size:13px; }
+  .ticker-row a { color:var(--ink); text-decoration:none; white-space:nowrap; }
+  .ticker-row a:hover { text-decoration:underline; }
+  .sep { color:var(--muted); }
+  @keyframes ticker { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+  .bar { top:var(--ticker-h, 0px); }
+  .card.jump { outline:2px solid #c4472b; }
