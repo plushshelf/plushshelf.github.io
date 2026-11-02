@@ -14,7 +14,8 @@
     "series": "Bashful 垂耳兔",
     "color": "藍紫綠幻彩、太空吊牌",
     "size": "中型",
-    "note": "吊牌印 SPACE / JELLYCAT LONDON"
+    "note": "吊牌印 SPACE / JELLYCAT LONDON",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -31,7 +32,8 @@
     "series": "Bashful 垂耳兔",
     "color": "深紅、白色蕾絲領、啡色蝴蝶結、珍珠",
     "size": "中型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -48,7 +50,8 @@
     "series": "Fuddlewuddle 捲毛兔",
     "color": "灰褐捲毛",
     "size": "中型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -65,7 +68,8 @@
     "series": "Bashful 垂耳兔",
     "color": "純白、淺粉鼻",
     "size": "中型",
-    "note": "未見吊牌"
+    "note": "未見吊牌",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -82,7 +86,8 @@
     "series": "Bashful 垂耳兔",
     "color": "淺米色",
     "size": "中型",
-    "note": "未見吊牌"
+    "note": "未見吊牌",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -99,7 +104,8 @@
     "series": "狗",
     "color": "深棕身體、淺啡嘴與腳、黑鼻",
     "size": "中型",
-    "note": "側躺"
+    "note": "側躺",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -116,7 +122,8 @@
     "series": "牛",
     "color": "白身黑斑、米色角與鼻",
     "size": "中型",
-    "note": "吊牌部分可見 JELLYCAT"
+    "note": "吊牌部分可見 JELLYCAT",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -133,7 +140,8 @@
     "series": "Amuseables 趣味物",
     "color": "橙身、灰藍邊、黃粉尾巴、金腳",
     "size": "小型",
-    "note": "太空吊牌 SPACE"
+    "note": "太空吊牌 SPACE",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -150,7 +158,8 @@
     "series": "Bashful 小兔",
     "color": "淺灰",
     "size": "小型",
-    "note": "與另外兩隻同框（左）"
+    "note": "與另外兩隻同框（左）",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -167,7 +176,8 @@
     "series": "Bashful 小兔",
     "color": "銀灰、右耳豎起",
     "size": "小型",
-    "note": "與另外兩隻同框（中）"
+    "note": "與另外兩隻同框（中）",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -187,7 +197,8 @@
     ],
     "color": "米色、粉紫碎花耳裡與腳底",
     "size": "小型",
-    "note": "與另外兩隻同框（右）"
+    "note": "與另外兩隻同框（右）",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -207,7 +218,8 @@
     ],
     "color": "米色花生、布腳、金屬圈",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -224,7 +236,8 @@
     "series": "Amuseables",
     "color": "米色花生、紫藍星空帽、銀色靴",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -244,7 +257,8 @@
     ],
     "color": "淺藍、白翼白角、彩點背刺",
     "size": "匙扣",
-    "note": "兩張為同一隻不同角度；吊牌可見 £28.00"
+    "note": "兩張為同一隻不同角度；吊牌可見 £28.00",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -261,7 +275,8 @@
     "series": "Amuseables 趣味物",
     "color": "啡橙色、頂部有凹槽與中心",
     "size": "小型",
-    "note": "外觀判斷，似环形蛋糕／小南瓜"
+    "note": "外觀判斷，似环形蛋糕／小南瓜",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -278,7 +293,8 @@
     "series": "Amuseables 趣味物",
     "color": "綠色花球、啡色腳",
     "size": "小型",
-    "note": "連連卡佛吊牌，標價 HKD 275"
+    "note": "連連卡佛吊牌，標價 HKD 275",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -295,7 +311,8 @@
     "series": "Amuseables 趣味物",
     "color": "綠仁、米色殼、布腳",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -315,7 +332,8 @@
     ],
     "color": "白奶蓋、啡杯身、條紋杯套",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -332,7 +350,8 @@
     "series": "Amuseables 動物",
     "color": "黑白、橙嘴橙腳",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -349,7 +368,8 @@
     "series": "Amuseables 匙扣",
     "color": "蛋白、黃蛋黃臉、布腳",
     "size": "匙扣",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -366,7 +386,8 @@
     "series": "Amuseables 趣味物",
     "color": "蛋白、眼鏡、白鞋紅邊",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -383,7 +404,8 @@
     "series": "Amuseables 趣味物",
     "color": "淺藍手套、白毛邊、啡腳",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -400,7 +422,8 @@
     "series": "Amuseables 匙扣",
     "color": "長棍、斜切口、布腳",
     "size": "匙扣",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -417,7 +440,8 @@
     "series": "Amuseables 匙扣",
     "color": "金棕色可頌、布腳",
     "size": "匙扣",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -434,7 +458,8 @@
     "series": "Amuseables 匙扣",
     "color": "綠果肉、啡核、深色皮",
     "size": "匙扣",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -451,7 +476,8 @@
     "series": "Amuseables 節日",
     "color": "橙色、三角眼、彎嘴、啡柄",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -468,7 +494,8 @@
     "series": "龍",
     "color": "淺紫、亮片翼與角、長尾",
     "size": "中型",
-    "note": "側躺"
+    "note": "側躺",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -485,7 +512,8 @@
     "series": "龍",
     "color": "淺藍、白翼、紅黃綠彩刺、白爪",
     "size": "中型",
-    "note": "側躺；與匙扣款同系列較大隻"
+    "note": "側躺；與匙扣款同系列較大隻",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -502,7 +530,8 @@
     "series": "Amuseables 趣味物",
     "color": "白花瓣、紅頭帶、啡手臂",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -519,7 +548,8 @@
     "series": "Amuseables 趣味物",
     "color": "白杯、杯柄、深啡腳",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -539,7 +569,8 @@
     ],
     "color": "粉紅、白色、淺粉腮紅、布腳",
     "size": "小型",
-    "note": "粉紅色與白色棉花糖同框"
+    "note": "粉紅色與白色棉花糖同框",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -556,7 +587,8 @@
     "series": "Amuseables 動物",
     "color": "淺粉、大鉗",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -573,7 +605,8 @@
     "series": "Bashful 垂耳兔",
     "color": "淺灰、深藍白碎花耳裡與腳底",
     "size": "中型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -590,7 +623,8 @@
     "series": "Bashful 垂耳兔",
     "color": "淺粉",
     "size": "中型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -607,7 +641,8 @@
     "series": "Bashful 垂耳兔",
     "color": "鮮紫、淺粉鼻",
     "size": "中型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -624,7 +659,8 @@
     "series": "Bashful 垂耳兔",
     "color": "海軍藍、淺粉鼻",
     "size": "中型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -641,7 +677,8 @@
     "series": "Amuseables 趣味物",
     "color": "黃筆身、粉灰擦膠、黑筆尖、黑腳",
     "size": "小型",
-    "note": "橫放"
+    "note": "橫放",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -658,7 +695,8 @@
     "series": "Amuseables 趣味物",
     "color": "黃蛋、蛋白、啡多士、白鞋",
     "size": "小型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -675,7 +713,8 @@
     "series": "Fuddlewuddle 捲毛兔",
     "color": "薑棕條紋捲毛",
     "size": "中型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -692,7 +731,8 @@
     "series": "Bashful 垂耳兔",
     "color": "藕粉／淡粉紫",
     "size": "中型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": true,
@@ -709,7 +749,8 @@
     "series": "Bashful 垂耳兔",
     "color": "白色、手抱金色笑臉星星",
     "size": "中型",
-    "note": ""
+    "note": "",
+    "created_at": "2026-10-01"
   },
   {
     "hold": false,
@@ -726,7 +767,8 @@
     "series": "Bashful 垂耳兔",
     "color": "藍紫綠幻彩、太空吊牌",
     "size": "匙扣",
-    "note": "吊牌印 SPACE / JELLYCAT LONDON"
+    "note": "吊牌印 SPACE / JELLYCAT LONDON",
+    "created_at": "2026-10-01"
   },
   {
     "id": 44,
@@ -743,26 +785,28 @@
     "image2Name": "",
     "image2Url": "",
     "hold": false,
-    "sold": false
+    "sold": false,
+    "created_at": "2026-10-01"
   },
   {
-    "id": 45,
-    "name": "18cm 深藍垂耳兔",
+    "id": 49,
+    "name": "18cm 小麥蓬鬆垂耳兔",
     "price": 200,
     "series": [
       "Bashful 垂耳兔"
     ],
     "size": "中型",
     "color": "海軍藍、淺粉鼻",
-    "note": "",
+    "note": "jELLYCAT|Wheat Flufflet Bunny 小麥蓬鬆賓尼兔",
     "linkLabel": "參考連結",
-    "linkUrl": "https://www.carousell.com.hk/p/jellycat-%F0%9F%92%99-little-bashful-saffyre-bunny-18cm-1452923338/?t-id=7DZHuz9_LP_1791393181187&t-referrer_browse_type=search_results&t-referrer_context=global_slp&t-referrer_request_id=s_4vE6AUzk5_z0vC&t-referrer_search_query=jellycat%20bunny%2018cm&t-referrer_source=search_landing&t-tap_index=36",
-    "imageName": "IMG_5974.HEIC",
-    "imageUrl": "https://drive.google.com/file/d/11nDXqfMlW6L8Wwj-sxQoi47VS9ztYKzQ/view?usp=drive_link",
+    "linkUrl": "https://www.barbiebox.store/products/jellycat-doll-bass6tlb-in",
+    "imageName": "IMG_6183.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1zOq20qbFzmBApGXYCB9npWmLotzXEj9Q/view?usp=drive_link",
     "image2Name": "",
     "image2Url": "",
     "hold": false,
-    "sold": false
+    "sold": false,
+    "created_at": "2026-10-01"
   },
   {
     "id": 46,
@@ -781,7 +825,8 @@
     "image2Name": "",
     "image2Url": "",
     "hold": false,
-    "sold": false
+    "sold": false,
+    "created_at": "2026-10-01"
   },
   {
     "id": 47,
@@ -800,7 +845,8 @@
     "image2Name": "",
     "image2Url": "",
     "hold": false,
-    "sold": false
+    "sold": false,
+    "created_at": "2026-10-01"
   },
   {
     "id": 48,
@@ -819,6 +865,27 @@
     "image2Name": "",
     "image2Url": "",
     "hold": false,
-    "sold": false
+    "sold": false,
+    "created_at": "2026-10-01"
+  },
+  {
+    "id": 45,
+    "name": "18cm 深藍垂耳兔",
+    "price": 200,
+    "series": [
+      "Bashful 垂耳兔"
+    ],
+    "size": "中型",
+    "color": "海軍藍、淺粉鼻",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.carousell.com.hk/p/jellycat-%F0%9F%92%99-little-bashful-saffyre-bunny-18cm-1452923338/?t-id=7DZHuz9_LP_1791393181187&t-referrer_browse_type=search_results&t-referrer_context=global_slp&t-referrer_request_id=s_4vE6AUzk5_z0vC&t-referrer_search_query=jellycat%20bunny%2018cm&t-referrer_source=search_landing&t-tap_index=36",
+    "imageName": "IMG_5974.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/11nDXqfMlW6L8Wwj-sxQoi47VS9ztYKzQ/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-10-01"
   }
 ]
