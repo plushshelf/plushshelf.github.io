@@ -15,8 +15,8 @@
     "imageUrl": "https://drive.google.com/file/d/1ET8ECE1eehK7q9GRc-Yood1E1rQJOvqE/view",
     "image2Name": "",
     "image2Url": "",
-    "hold": false,
-    "sold": true,
+    "hold": true,
+    "sold": false,
     "created_at": "2026-10-01"
   },
   {
@@ -135,7 +135,7 @@
     "imageUrl": "https://drive.google.com/file/d/13Id16O-6jP57ko63fCBqfEm50CqxZc9I/view",
     "image2Name": "",
     "image2Url": "",
-    "hold": true,
+    "hold": false,
     "sold": false,
     "created_at": "2026-10-01"
   },
@@ -395,8 +395,8 @@
     "imageUrl": "https://drive.google.com/file/d/1AVxpGSbQqzUdDywM5n20A2WPx5tbJIk8/view",
     "image2Name": "",
     "image2Url": "",
-    "hold": false,
-    "sold": true,
+    "hold": true,
+    "sold": false,
     "created_at": "2026-10-01"
   },
   {
@@ -529,8 +529,8 @@
     "note": "",
     "linkLabel": "參考連結",
     "linkUrl": "https://chiikawamarket.jp/zh-hant/products/4571609402756",
-    "imageName": "",
-    "imageUrl": "",
+    "imageName": "IMG_6313.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/17InLfAZUYeM4zqeoI-IjYPmgjkvY1wtJ/view?usp=drive_link",
     "image2Name": "",
     "image2Url": "",
     "hold": false,
