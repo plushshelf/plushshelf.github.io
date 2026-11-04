@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "達菲熊（星願造型）",
-    "price": "",
+    "price": 150,
     "series": [
       "Duffy and Friends"
     ],
@@ -22,7 +22,7 @@
   {
     "id": 2,
     "name": "奧樂米拉（聖誕造型）",
-    "price": "",
+    "price": 80,
     "series": [
       "Duffy and Friends",
       "Olu Mel"
@@ -43,7 +43,7 @@
   {
     "id": 3,
     "name": "奧樂米拉（蘑菇帽造型）",
-    "price": "",
+    "price": 80,
     "series": [
       "Duffy and Friends",
       "Olu Mel"
@@ -64,7 +64,7 @@
   {
     "id": 4,
     "name": "奧樂米拉（粉紅吊帶造型）",
-    "price": "",
+    "price": 80,
     "series": [
       "Duffy and Friends",
       "Olu Mel"
@@ -85,7 +85,7 @@
   {
     "id": 5,
     "name": "奧樂米拉（甜甜圈造型）",
-    "price": "",
+    "price": 80,
     "series": [
       "Duffy and Friends",
       "Olu Mel"
@@ -106,7 +106,7 @@
   {
     "id": 6,
     "name": "雪莉玫（藍色洋裝）",
-    "price": "",
+    "price": 100,
     "series": [
       "Duffy and Friends",
       "ShellieMay"
@@ -123,5 +123,46 @@
     "hold": false,
     "sold": false,
     "created_at": "2026-10-01"
+  },
+  {
+    "id": 7,
+    "name": "玲娜貝兒（LinaBell）",
+    "price": 100,
+    "series": [
+      "香港迪士尼樂園 2024 聖誕節系列",
+      "匙扣"
+    ],
+    "size": "小型",
+    "color": "胡桃夾子造型毛公仔鎖匙扣",
+    "note": "2024 聖誕節胡桃夾子 / 士兵造型",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.ebay.co.uk/itm/286578759446",
+    "imageName": "IMG_6310.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/17sXojJRrXlvyIws7eX1nI695Z9SZCgRq/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T01:02:57+08:00"
+  },
+  {
+    "id": 8,
+    "name": "傑拉多尼",
+    "price": 80,
+    "series": [
+      "香港迪士尼樂園 2024辰年（龍年）新春盲盒"
+    ],
+    "size": "小型",
+    "color": "龍寶寶造型毛公仔",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://item.fril.jp/5adc33571e1a726ae3949074f2c2fe50",
+    "imageName": "IMG_6317.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1DAeW8RagLMPIjY5X7jJZ1SrBjpTI2Moe/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T01:02:57+08:00"
   }
 ]
