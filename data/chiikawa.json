@@ -16,7 +16,7 @@
     "image2Name": "",
     "image2Url": "",
     "hold": false,
-    "sold": false,
+    "sold": true,
     "created_at": "2026-10-01"
   },
   {
@@ -135,7 +135,7 @@
     "imageUrl": "https://drive.google.com/file/d/13Id16O-6jP57ko63fCBqfEm50CqxZc9I/view",
     "image2Name": "",
     "image2Url": "",
-    "hold": false,
+    "hold": true,
     "sold": false,
     "created_at": "2026-10-01"
   },
@@ -396,7 +396,7 @@
     "image2Name": "",
     "image2Url": "",
     "hold": false,
-    "sold": false,
+    "sold": true,
     "created_at": "2026-10-01"
   },
   {
