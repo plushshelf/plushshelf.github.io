@@ -41,16 +41,16 @@
   },
   {
     "id": 3,
-    "name": "粉紅花飛鼠",
-    "price": "",
+    "name": "栗子饅頭",
+    "price": 50,
     "series": [
-      "Momonga 飛鼠"
+      "絨毛調色盤～櫻花色～"
     ],
     "size": "小型",
-    "color": "粉紅、白玫瑰、綠葉",
-    "note": "頭頂與手持白玫瑰",
-    "linkLabel": "",
-    "linkUrl": "",
+    "color": "NuiPalette 櫻花色系列",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://item.fril.jp/14b2fbfe0d294640c1e9ff0ad0bbd66a",
     "imageName": "IMG_5233.HEIC",
     "imageUrl": "https://drive.google.com/file/d/1K6y4px7ELrcMUPna-AWP5Y3Rf3vWB8S2/view",
     "image2Name": "",
