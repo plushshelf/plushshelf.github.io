@@ -338,5 +338,68 @@
     "hold": false,
     "sold": false,
     "created_at": "2026-10-01"
+  },
+  {
+    "id": 18,
+    "name": "提線木偶",
+    "price": 100,
+    "series": [
+      "WHY SO SERIOUS 系列",
+      "匙扣"
+    ],
+    "size": "小型",
+    "color": "高約 16cm",
+    "note": "材質：聚酯纖維 / PVC/ABS填充物：聚酯纖維 / PP 膠粒 / PU",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.popmart.com/hk/products/1772/why-so-serious%E7%B3%BB%E5%88%97-%E6%90%AA%E8%86%A0%E6%AF%9B%E7%B5%A8%E6%8E%9B%E4%BB%B6%E7%9B%B2%E7%9B%92",
+    "imageName": "IMG_6325.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1w-J6MAhydZF9QgPsNUuUXTFQJLkpPq82/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T00:54:43+08:00"
+  },
+  {
+    "id": 19,
+    "name": "幽影小丑",
+    "price": 100,
+    "series": [
+      "WHY SO SERIOUS 系列",
+      "匙扣"
+    ],
+    "size": "小型",
+    "color": "高約 16cm",
+    "note": "材質：聚酯纖維 / PVC/ABS填充物：聚酯纖維 / PP 膠粒 / PU",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.popmart.com/hk/products/1772/why-so-serious%E7%B3%BB%E5%88%97-%E6%90%AA%E8%86%A0%E6%AF%9B%E7%B5%A8%E6%8E%9B%E4%BB%B6%E7%9B%B2%E7%9B%92",
+    "imageName": "IMG_6319.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1-MnBAYfb6Ay6401LU10opvB4tNbPk4sD/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T00:54:43+08:00"
+  },
+  {
+    "id": 20,
+    "name": "銀霧小丑",
+    "price": 100,
+    "series": [
+      "WHY SO SERIOUS 系列",
+      "匙扣"
+    ],
+    "size": "小型",
+    "color": "高約 16cm",
+    "note": "材質：聚酯纖維 / PVC/ABS填充物：聚酯纖維 / PP 膠粒 / PU",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.popmart.com/hk/products/1772/why-so-serious%E7%B3%BB%E5%88%97-%E6%90%AA%E8%86%A0%E6%AF%9B%E7%B5%A8%E6%8E%9B%E4%BB%B6%E7%9B%B2%E7%9B%92",
+    "imageName": "IMG_6318.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1H-k63zGYe07Vh_9dga4-ft1G_ru4H_1u/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T00:54:43+08:00"
   }
 ]
