@@ -536,5 +536,125 @@
     "hold": false,
     "sold": false,
     "created_at": "2026-11-03T00:15:20+08:00"
+  },
+  {
+    "id": 28,
+    "name": "栗子饅頭",
+    "price": 80,
+    "series": [
+      "吉伊卡哇萬聖節造型口金包掛飾第二彈"
+    ],
+    "size": "中型",
+    "color": "毛豆 / 蠶豆變裝造型（枝豆）",
+    "note": "夾子口金包 / 零錢包掛飾（附有掛勾與吊牌）",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://item.fril.jp/ca8bbeee54a3562d46a25e4f881ec82f",
+    "imageName": "IMG_6311.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1L67v3ks3p0RxMEtZ35Vo2hMFy_Awye9j/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T00:46:25+08:00"
+  },
+  {
+    "id": 29,
+    "name": "古本屋",
+    "price": 80,
+    "series": [
+      "吉伊卡哇萬聖節造型口金包掛飾第二彈"
+    ],
+    "size": "中型",
+    "color": "身穿紫色蝙蝠裝、配戴橘色小領結，頭上有橘色蝙蝠耳朵與粉紅色刺繡腮紅，附有金屬扣環及圓形吊牌。",
+    "note": "萬聖節蝙蝠造型變裝周邊;\n吉伊卡哇 大家一起變裝吊飾（蝙蝠古本屋）/ 萬聖節口金包景品公仔",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://chiikawamarket.jp/zh-hant/products/4571609402770",
+    "imageName": "IMG_6314.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/15RwSO6PYCWVxY8geOORYfWNM6_wxRufg/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T00:46:25+08:00"
+  },
+  {
+    "id": 31,
+    "name": "獅薩",
+    "price": 50,
+    "series": [
+      "絨毛調色盤～櫻花色～"
+    ],
+    "size": "小型",
+    "color": "粉紅櫻花版造型吊飾",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://gachakawa.com/fr/products/chiikawa-palette-sakura-shisa-plush-doll-mascot-cherry-blossoms-10cm?srsltid=AYCX9vIxCLjFVcsblxJDVvjeZKmlQnJmv44e4BsKAVZW0qK1gyNjwEBG",
+    "imageName": "IMG_6320.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1W9gNf0HgUNR3N3OyKTpCt04wT567rtex/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T00:46:25+08:00"
+  },
+  {
+    "id": 32,
+    "name": "栗子饅頭",
+    "price": 50,
+    "series": [
+      "絨毛調色盤～櫻花色～"
+    ],
+    "size": "小型",
+    "color": "NuiPalette 櫻花色系列",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://item.fril.jp/14b2fbfe0d294640c1e9ff0ad0bbd66a",
+    "imageName": "IMG_6323.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1raJwKw0VrfTrNa_u3_omN6phpdT4Cnuq/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T00:46:25+08:00"
+  },
+  {
+    "id": 30,
+    "name": "小八貓",
+    "price": 50,
+    "series": [
+      "絨毛調色盤～櫻花色～"
+    ],
+    "size": "小型",
+    "color": "",
+    "note": "（ぬいぱれっと 櫻花色）系列的小八貓（ハチワレ）絨毛吊飾",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://universe.oneone.com.tw/posts/5044",
+    "imageName": "IMG_6324.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/10KZlkVcp2KOBzivZkQCGnatla9DXY0-K/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T00:46:25+08:00"
+  },
+  {
+    "id": 33,
+    "name": "吉伊",
+    "price": 50,
+    "series": [
+      "絨毛調色盤～櫻花色～"
+    ],
+    "size": "小型",
+    "color": "粉紅櫻花版造型吊飾",
+    "note": "",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://universe.oneone.com.tw/posts/5044",
+    "imageName": "IMG_6321.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1E4g-b_gBqCJRclE_bBcztF7pP2FXpDZh/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T00:46:25+08:00"
   }
 ]
