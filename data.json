@@ -836,8 +836,8 @@
       "Amuseables 動物"
     ],
     "size": "中型",
-    "color": "黃",
-    "note": "",
+    "color": "擁有奶油黃色的柔軟絨毛、桃紅色的嘴 and 腳蹼，以及最具標誌性、像剛睡醒沒梳頭般的「爆炸頭」呆萌髮型。",
+    "note": "尺寸：身高約 26 公分（坐高約 23 公分）。",
     "linkLabel": "參考連結",
     "linkUrl": "https://eu.jellycat.com/dorit-duckling/",
     "imageName": "https://drive.google.com/file/d/1DY5XdGjiAMq9vrM1ZqbKqlXzboiR2M7r/view?usp=drive_link",
@@ -887,5 +887,46 @@
     "hold": false,
     "sold": false,
     "created_at": "2026-11-02T23:52:42+08:00"
+  },
+  {
+    "id": 50,
+    "name": "粉紅碎花兔兔鎖匙扣",
+    "price": 200,
+    "series": [
+      "匙扣",
+      "Bashful 小兔"
+    ],
+    "size": "小型",
+    "color": "粉紅碎花兔",
+    "note": "• 尺寸：約 18cm x 5cm x 4cm（坐高約 13cm）\n• 材質：聚酯纖維（Polyester）絨毛、粉色麂皮質感小鼻子、花布印花耳朵，配有金屬挂",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.barbiebox.store/en/products/jellycat-charm-bp4rose-in",
+    "imageName": "IMG_6315.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1ZI6Kej71c_2MAUCfEbKRHrTlCBT9zDzL/view",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T01:10:58+08:00"
+  },
+  {
+    "id": 51,
+    "name": "長法包",
+    "price": 250,
+    "series": [
+      "Amuseables 匙扣"
+    ],
+    "size": "匙扣",
+    "color": "法棍麵包造型掛件／匙扣",
+    "note": "毛茸茸的長法包造型，配有可愛的小腳與金屬扣環，可掛在手袋或鎖匙上。",
+    "linkLabel": "參考連結",
+    "linkUrl": "https://www.lanecrawford.com.hk/product/jellycat/amuseables-baguette-bag-charm/_/EOY617/product.lc",
+    "imageName": "IMG_6316.HEIC",
+    "imageUrl": "https://drive.google.com/file/d/1_fv4n3wjed0ahgd3Fe2lct5lPlW_kIpt/view?usp=drive_link",
+    "image2Name": "",
+    "image2Url": "",
+    "hold": false,
+    "sold": false,
+    "created_at": "2026-11-05T01:10:58+08:00"
   }
 ]
