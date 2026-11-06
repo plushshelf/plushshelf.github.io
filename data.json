@@ -73,17 +73,19 @@
   },
   {
     "hold": false,
-    "sold": false,
+    "sold": true,
     "id": 5,
     "imageName": "IMG_4962.HEIC",
     "imageUrl": "https://drive.google.com/file/d/1mP6YrTd-W00h53VB-uavWG_bzLOKJpLj/view",
     "image2Name": "",
     "image2Url": "",
-    "price": 350,
+    "price": 300,
     "linkLabel": "Medium Bashful Bunny — Beige",
     "linkUrl": "https://www.lanecrawford.com.hk/product/jellycat/medium-bashful-bunny-beige/_/EOY610/product.lc",
     "name": "31cm 淺啡色賓尼兔",
-    "series": "Bashful 垂耳兔",
+    "series": [
+      "Bashful 垂耳兔"
+    ],
     "color": "淺米色",
     "size": "中型",
     "note": "未見吊牌",
